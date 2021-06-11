@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2796FD9C2673396B00C0ABDC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD9B2673396B00C0ABDC /* Tests_iOS.swift */; };
+		2796FDA72673396B00C0ABDC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FDA62673396B00C0ABDC /* Tests_macOS.swift */; };
+		2796FDA92673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD7D2673396A00C0ABDC /* NailBuddy.xcdatamodeld */; };
+		2796FDAA2673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD7D2673396A00C0ABDC /* NailBuddy.xcdatamodeld */; };
+		2796FDAB2673396B00C0ABDC /* NailBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */; };
+		2796FDAC2673396B00C0ABDC /* NailBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */; };
+		2796FDAD2673396B00C0ABDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD802673396A00C0ABDC /* ContentView.swift */; };
+		2796FDAE2673396B00C0ABDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD802673396A00C0ABDC /* ContentView.swift */; };
+		2796FDAF2673396B00C0ABDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD812673396A00C0ABDC /* Persistence.swift */; };
+		2796FDB02673396B00C0ABDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD812673396A00C0ABDC /* Persistence.swift */; };
+		2796FDB12673396B00C0ABDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2796FD822673396B00C0ABDC /* Assets.xcassets */; };
+		2796FDB22673396B00C0ABDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2796FD822673396B00C0ABDC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2796FD982673396B00C0ABDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2796FD782673396A00C0ABDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2796FD862673396B00C0ABDC;
+			remoteInfo = "NailBuddy (iOS)";
+		};
+		2796FDA32673396B00C0ABDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2796FD782673396A00C0ABDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2796FD8E2673396B00C0ABDC;
+			remoteInfo = "NailBuddy (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2796FD7E2673396A00C0ABDC /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailBuddyApp.swift; sourceTree = "<group>"; };
+		2796FD802673396A00C0ABDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2796FD812673396A00C0ABDC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2796FD822673396B00C0ABDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2796FD872673396B00C0ABDC /* NailBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NailBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2796FD8A2673396B00C0ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2796FD8F2673396B00C0ABDC /* NailBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NailBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2796FD912673396B00C0ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2796FD922673396B00C0ABDC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2796FD972673396B00C0ABDC /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2796FD9B2673396B00C0ABDC /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2796FD9D2673396B00C0ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2796FDA22673396B00C0ABDC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2796FDA62673396B00C0ABDC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2796FDA82673396B00C0ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2796FD842673396B00C0ABDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD8C2673396B00C0ABDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD942673396B00C0ABDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD9F2673396B00C0ABDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2796FD772673396A00C0ABDC = {
+			isa = PBXGroup;
+			children = (
+				2796FD7C2673396A00C0ABDC /* Shared */,
+				2796FD892673396B00C0ABDC /* iOS */,
+				2796FD902673396B00C0ABDC /* macOS */,
+				2796FD9A2673396B00C0ABDC /* Tests iOS */,
+				2796FDA52673396B00C0ABDC /* Tests macOS */,
+				2796FD882673396B00C0ABDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2796FD7C2673396A00C0ABDC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */,
+				2796FD802673396A00C0ABDC /* ContentView.swift */,
+				2796FD812673396A00C0ABDC /* Persistence.swift */,
+				2796FD822673396B00C0ABDC /* Assets.xcassets */,
+				2796FD7D2673396A00C0ABDC /* NailBuddy.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2796FD882673396B00C0ABDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD872673396B00C0ABDC /* NailBuddy.app */,
+				2796FD8F2673396B00C0ABDC /* NailBuddy.app */,
+				2796FD972673396B00C0ABDC /* Tests iOS.xctest */,
+				2796FDA22673396B00C0ABDC /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2796FD892673396B00C0ABDC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD8A2673396B00C0ABDC /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2796FD902673396B00C0ABDC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD912673396B00C0ABDC /* Info.plist */,
+				2796FD922673396B00C0ABDC /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2796FD9A2673396B00C0ABDC /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD9B2673396B00C0ABDC /* Tests_iOS.swift */,
+				2796FD9D2673396B00C0ABDC /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2796FDA52673396B00C0ABDC /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2796FDA62673396B00C0ABDC /* Tests_macOS.swift */,
+				2796FDA82673396B00C0ABDC /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2796FD862673396B00C0ABDC /* NailBuddy (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2796FDB52673396B00C0ABDC /* Build configuration list for PBXNativeTarget "NailBuddy (iOS)" */;
+			buildPhases = (
+				2796FD832673396B00C0ABDC /* Sources */,
+				2796FD842673396B00C0ABDC /* Frameworks */,
+				2796FD852673396B00C0ABDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NailBuddy (iOS)";
+			productName = "NailBuddy (iOS)";
+			productReference = 2796FD872673396B00C0ABDC /* NailBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2796FD8E2673396B00C0ABDC /* NailBuddy (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2796FDB82673396B00C0ABDC /* Build configuration list for PBXNativeTarget "NailBuddy (macOS)" */;
+			buildPhases = (
+				2796FD8B2673396B00C0ABDC /* Sources */,
+				2796FD8C2673396B00C0ABDC /* Frameworks */,
+				2796FD8D2673396B00C0ABDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NailBuddy (macOS)";
+			productName = "NailBuddy (macOS)";
+			productReference = 2796FD8F2673396B00C0ABDC /* NailBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2796FD962673396B00C0ABDC /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2796FDBB2673396B00C0ABDC /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2796FD932673396B00C0ABDC /* Sources */,
+				2796FD942673396B00C0ABDC /* Frameworks */,
+				2796FD952673396B00C0ABDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2796FD992673396B00C0ABDC /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2796FD972673396B00C0ABDC /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2796FDA12673396B00C0ABDC /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2796FDBE2673396B00C0ABDC /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2796FD9E2673396B00C0ABDC /* Sources */,
+				2796FD9F2673396B00C0ABDC /* Frameworks */,
+				2796FDA02673396B00C0ABDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2796FDA42673396B00C0ABDC /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2796FDA22673396B00C0ABDC /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2796FD782673396A00C0ABDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2796FD862673396B00C0ABDC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2796FD8E2673396B00C0ABDC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					2796FD962673396B00C0ABDC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2796FD862673396B00C0ABDC;
+					};
+					2796FDA12673396B00C0ABDC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 2796FD8E2673396B00C0ABDC;
+					};
+				};
+			};
+			buildConfigurationList = 2796FD7B2673396A00C0ABDC /* Build configuration list for PBXProject "NailBuddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2796FD772673396A00C0ABDC;
+			productRefGroup = 2796FD882673396B00C0ABDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2796FD862673396B00C0ABDC /* NailBuddy (iOS) */,
+				2796FD8E2673396B00C0ABDC /* NailBuddy (macOS) */,
+				2796FD962673396B00C0ABDC /* Tests iOS */,
+				2796FDA12673396B00C0ABDC /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2796FD852673396B00C0ABDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FDB12673396B00C0ABDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD8D2673396B00C0ABDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FDB22673396B00C0ABDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD952673396B00C0ABDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FDA02673396B00C0ABDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2796FD832673396B00C0ABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FDAB2673396B00C0ABDC /* NailBuddyApp.swift in Sources */,
+				2796FDAF2673396B00C0ABDC /* Persistence.swift in Sources */,
+				2796FDA92673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */,
+				2796FDAD2673396B00C0ABDC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD8B2673396B00C0ABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FDAC2673396B00C0ABDC /* NailBuddyApp.swift in Sources */,
+				2796FDB02673396B00C0ABDC /* Persistence.swift in Sources */,
+				2796FDAA2673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */,
+				2796FDAE2673396B00C0ABDC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD932673396B00C0ABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FD9C2673396B00C0ABDC /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2796FD9E2673396B00C0ABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2796FDA72673396B00C0ABDC /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2796FD992673396B00C0ABDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2796FD862673396B00C0ABDC /* NailBuddy (iOS) */;
+			targetProxy = 2796FD982673396B00C0ABDC /* PBXContainerItemProxy */;
+		};
+		2796FDA42673396B00C0ABDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2796FD8E2673396B00C0ABDC /* NailBuddy (macOS) */;
+			targetProxy = 2796FDA32673396B00C0ABDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2796FDB32673396B00C0ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2796FDB42673396B00C0ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2796FDB62673396B00C0ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
+				PRODUCT_NAME = NailBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2796FDB72673396B00C0ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
+				PRODUCT_NAME = NailBuddy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2796FDB92673396B00C0ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
+				PRODUCT_NAME = NailBuddy;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2796FDBA2673396B00C0ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
+				PRODUCT_NAME = NailBuddy;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2796FDBC2673396B00C0ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikecollier.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NailBuddy (iOS)";
+			};
+			name = Debug;
+		};
+		2796FDBD2673396B00C0ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikecollier.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NailBuddy (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2796FDBF2673396B00C0ABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikecollier.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NailBuddy (macOS)";
+			};
+			name = Debug;
+		};
+		2796FDC02673396B00C0ABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E9NB3S6TNS;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikecollier.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NailBuddy (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2796FD7B2673396A00C0ABDC /* Build configuration list for PBXProject "NailBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2796FDB32673396B00C0ABDC /* Debug */,
+				2796FDB42673396B00C0ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2796FDB52673396B00C0ABDC /* Build configuration list for PBXNativeTarget "NailBuddy (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2796FDB62673396B00C0ABDC /* Debug */,
+				2796FDB72673396B00C0ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2796FDB82673396B00C0ABDC /* Build configuration list for PBXNativeTarget "NailBuddy (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2796FDB92673396B00C0ABDC /* Debug */,
+				2796FDBA2673396B00C0ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2796FDBB2673396B00C0ABDC /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2796FDBC2673396B00C0ABDC /* Debug */,
+				2796FDBD2673396B00C0ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2796FDBE2673396B00C0ABDC /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2796FDBF2673396B00C0ABDC /* Debug */,
+				2796FDC02673396B00C0ABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2796FD7D2673396A00C0ABDC /* NailBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2796FD7E2673396A00C0ABDC /* Shared.xcdatamodel */,
+			);
+			currentVersion = 2796FD7E2673396A00C0ABDC /* Shared.xcdatamodel */;
+			path = NailBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2796FD782673396A00C0ABDC /* Project object */;
+}
