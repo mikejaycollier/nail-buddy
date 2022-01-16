@@ -19,6 +19,18 @@
 		2796FDB02673396B00C0ABDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796FD812673396A00C0ABDC /* Persistence.swift */; };
 		2796FDB12673396B00C0ABDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2796FD822673396B00C0ABDC /* Assets.xcassets */; };
 		2796FDB22673396B00C0ABDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2796FD822673396B00C0ABDC /* Assets.xcassets */; };
+		4D1A684E273A1CA900B6C090 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A684D273A1CA900B6C090 /* String.swift */; };
+		4D1A684F273A1CA900B6C090 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A684D273A1CA900B6C090 /* String.swift */; };
+		4D69A8182793F78400E72C92 /* ClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69A8172793F78400E72C92 /* ClientExtension.swift */; };
+		4D69A8192793F78400E72C92 /* ClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69A8172793F78400E72C92 /* ClientExtension.swift */; };
+		4D69A81B2793F94C00E72C92 /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69A81A2793F94C00E72C92 /* AppointmentDetailView.swift */; };
+		4D69A81C2793F94C00E72C92 /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D69A81A2793F94C00E72C92 /* AppointmentDetailView.swift */; };
+		4D7DFDE32793DFC80005D948 /* ClientsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFDE22793DFC80005D948 /* ClientsMainView.swift */; };
+		4D7DFDE42793DFC80005D948 /* ClientsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFDE22793DFC80005D948 /* ClientsMainView.swift */; };
+		4D7DFDE62793E3A40005D948 /* AppointmentsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFDE52793E3A40005D948 /* AppointmentsMainView.swift */; };
+		4D7DFDE72793E3A40005D948 /* AppointmentsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFDE52793E3A40005D948 /* AppointmentsMainView.swift */; };
+		4D8CF8E12793E873002C7052 /* SettingsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CF8E02793E873002C7052 /* SettingsMainView.swift */; };
+		4D8CF8E32793EC97002C7052 /* ClientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CF8E22793EC97002C7052 /* ClientDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,14 @@
 		2796FDA22673396B00C0ABDC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2796FDA62673396B00C0ABDC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2796FDA82673396B00C0ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1A684D273A1CA900B6C090 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4D69A8172793F78400E72C92 /* ClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientExtension.swift; sourceTree = "<group>"; };
+		4D69A81A2793F94C00E72C92 /* AppointmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
+		4D7DFDE22793DFC80005D948 /* ClientsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsMainView.swift; sourceTree = "<group>"; };
+		4D7DFDE52793E3A40005D948 /* AppointmentsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsMainView.swift; sourceTree = "<group>"; };
+		4D8CF8DE2793E637002C7052 /* NailBuddy (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NailBuddy (iOS).entitlements"; sourceTree = "<group>"; };
+		4D8CF8E02793E873002C7052 /* SettingsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMainView.swift; sourceTree = "<group>"; };
+		4D8CF8E22793EC97002C7052 /* ClientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,7 @@
 		2796FD772673396A00C0ABDC = {
 			isa = PBXGroup;
 			children = (
+				4D8CF8DE2793E637002C7052 /* NailBuddy (iOS).entitlements */,
 				2796FD7C2673396A00C0ABDC /* Shared */,
 				2796FD892673396B00C0ABDC /* iOS */,
 				2796FD902673396B00C0ABDC /* macOS */,
@@ -104,11 +125,12 @@
 		2796FD7C2673396A00C0ABDC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */,
-				2796FD802673396A00C0ABDC /* ContentView.swift */,
-				2796FD812673396A00C0ABDC /* Persistence.swift */,
 				2796FD822673396B00C0ABDC /* Assets.xcassets */,
 				2796FD7D2673396A00C0ABDC /* NailBuddy.xcdatamodeld */,
+				2796FD7F2673396A00C0ABDC /* NailBuddyApp.swift */,
+				2796FD812673396A00C0ABDC /* Persistence.swift */,
+				4D7DFDEB2793E4CB0005D948 /* UI */,
+				4D1A6850273A256600B6C090 /* Extensions */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +179,52 @@
 				2796FDA82673396B00C0ABDC /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4D1A6850273A256600B6C090 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D1A684D273A1CA900B6C090 /* String.swift */,
+				4D69A8172793F78400E72C92 /* ClientExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D7DFDEB2793E4CB0005D948 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2796FD802673396A00C0ABDC /* ContentView.swift */,
+				4D7DFDEC2793E4E60005D948 /* Clients */,
+				4D7DFDED2793E4ED0005D948 /* Appointments */,
+				4D8CF8DF2793E860002C7052 /* Settings */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4D7DFDEC2793E4E60005D948 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFDE22793DFC80005D948 /* ClientsMainView.swift */,
+				4D8CF8E22793EC97002C7052 /* ClientDetailView.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		4D7DFDED2793E4ED0005D948 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFDE52793E3A40005D948 /* AppointmentsMainView.swift */,
+				4D69A81A2793F94C00E72C92 /* AppointmentDetailView.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		4D8CF8DF2793E860002C7052 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CF8E02793E873002C7052 /* SettingsMainView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +307,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					2796FD862673396B00C0ABDC = {
 						CreatedOnToolsVersion = 12.5;
@@ -316,10 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1A684E273A1CA900B6C090 /* String.swift in Sources */,
+				4D8CF8E32793EC97002C7052 /* ClientDetailView.swift in Sources */,
 				2796FDAB2673396B00C0ABDC /* NailBuddyApp.swift in Sources */,
 				2796FDAF2673396B00C0ABDC /* Persistence.swift in Sources */,
 				2796FDA92673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */,
 				2796FDAD2673396B00C0ABDC /* ContentView.swift in Sources */,
+				4D8CF8E12793E873002C7052 /* SettingsMainView.swift in Sources */,
+				4D7DFDE32793DFC80005D948 /* ClientsMainView.swift in Sources */,
+				4D69A8182793F78400E72C92 /* ClientExtension.swift in Sources */,
+				4D69A81B2793F94C00E72C92 /* AppointmentDetailView.swift in Sources */,
+				4D7DFDE62793E3A40005D948 /* AppointmentsMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +402,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1A684F273A1CA900B6C090 /* String.swift in Sources */,
 				2796FDAC2673396B00C0ABDC /* NailBuddyApp.swift in Sources */,
 				2796FDB02673396B00C0ABDC /* Persistence.swift in Sources */,
 				2796FDAA2673396B00C0ABDC /* NailBuddy.xcdatamodeld in Sources */,
+				4D69A8192793F78400E72C92 /* ClientExtension.swift in Sources */,
+				4D69A81C2793F94C00E72C92 /* AppointmentDetailView.swift in Sources */,
 				2796FDAE2673396B00C0ABDC /* ContentView.swift in Sources */,
+				4D7DFDE42793DFC80005D948 /* ClientsMainView.swift in Sources */,
+				4D7DFDE72793E3A40005D948 /* AppointmentsMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,11 +562,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NailBuddy (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9NB3S6TNS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,8 +575,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
 				PRODUCT_NAME = NailBuddy;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -504,11 +586,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NailBuddy (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9NB3S6TNS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,8 +599,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikecollier.NailBuddy;
 				PRODUCT_NAME = NailBuddy;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -528,6 +612,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E9NB3S6TNS;
@@ -552,6 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E9NB3S6TNS;
