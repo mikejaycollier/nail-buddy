@@ -20,8 +20,8 @@ struct AppointmentDetailView: View {
                     ClientDetailView(client: client)
                 } label: {
                     VStack {
-                        Text("Cusotmer Name " + client.fullName)
-                        Text("Cusotmer Note: " + (client.note ?? ""))                        
+                        Text("Client Name " + client.fullName)
+                        Text("Client Note: " + (client.note ?? ""))                        
                     }
                 }
             }
